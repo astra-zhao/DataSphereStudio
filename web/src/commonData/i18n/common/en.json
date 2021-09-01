@@ -81,9 +81,10 @@
             "publishSuccess": "Successfully published",
             "publishFailed": "Publish failed",
             "infoTitle": "Welcome",
-            "infoHeader": "Welcome to DataSphere Studio !",
+            "infoHeader": "Welcome to Workflow Development !",
             "infoBodyFirstRow": "DataSphere Studio is a one-stop portal focusing on development and management of data application, as a part of WeDataSphere -- the big data platform of WeBank.",
             "infoBodySecondRow": "Based on Linkis computation middleware, it's able to easily integrate various data application systems, making the development of data application easier and simpler.",
+            "workspace": "Workspace",
             "appTitle": "Application Navigation",
             "applicationStudio": "Business Application Development",
             "applicationMore": "More Information",
@@ -103,7 +104,35 @@
             "deleteWtss": "Delete the scheduler project at the same time?",
             "noData": "No data please add"
         },
+        "workspace": {
+          "infoHeader": "Welcome to DataSphere Studio !",
+          "createWorkspace": "Create Workspace",
+          "searchWorkspace": "Search Workspace",
+          "workspaceList": "Workspace List",
+          "editWorkspace": "Edit",
+          "newWorkspace": "New Workspace",
+          "editor": "Edit Workspace",
+          "workName": "Name",
+          "department": "Department",
+          "selectDepartment": "Please Select Department",
+          "label": "Label",
+          "addLabel": "Add Label",
+          "description": "Description",
+          "pleaseInputWorkspaceDesc": "Please Input Workspace Description",
+          "createdSuccess": "Successfully created!",
+          "createdFailed": "Created failed!",
+          "display": "Display",
+          "tableDisplay": "Table",
+          "cardDisplay": "Card",
+          "createTime": "CreateTime"
+        },
+        "GLY": {
+          "ALTY": "Demos",
+          "KSRM": "Quick Start",
+          "HYP": "Change"
+        },
         "workflow": {
+            "infoHeader": "Welcome to Workflow!",
             "workflow": "Workflow",
             "createWorkflow": "Create workflow",
             "gotoVisualis": "Enter Visualis",
@@ -490,7 +519,7 @@
             "cancel": "Cancel",
             "timeout": "Timeout on publishing project {name}!"
         },
-        "tableDetails" : {
+        "tableDetails": {
             "BZBSX": "Table basic attributes",
             "BZDXX": "Table column information",
             "BTJXX": "Table statistical information",
@@ -605,7 +634,8 @@
         "navMune": {
             "FAQ": "FAQ",
             "clearCache": "Clear cache",
-            "logOut": "Log out"
+            "logOut": "Log out",
+            "userManager": "User Manager"
         },
         "shape": {
             "dataDev": "Data development",
@@ -771,13 +801,18 @@
             "password": "Please enter password！",
             "loginSuccess": "Login Success",
             "haveLogin": "You have already logged in, please do not login repeatedly",
-            "vaildFaild": "Authentication failed!"
+            "vaildFaild": "Authentication failed!",
+            "captcha": "Please enter captcha"
         },
         "userMenu": {
             "title": "Warning",
             "content": "<p>This operation will clear the local database cache, leading to loose your script logs, history and result set information, please confirm whether there are scripts unsaved!</p><p>Click OK button to continue?</p>",
             "clearCacheSuccess": "Successfully cleared local cache!",
             "comingSoon": "Not yet open source, please stay tuned!"
+        },
+        "header": {
+            "home": "Home",
+            "console": "Console"
         },
         "headerNavBar": {
             "Workflow": "Workflow Development",
@@ -1018,6 +1053,22 @@
             },
             "error": {
                 "fileExists": "Duplicated file!"
+            },
+            "home": {
+                "welcome": "Welcome to the {text} workspace!",
+                "setting": "Seting",
+                "exit": "Exit",
+                "enter": "Enter {text}",
+                "dlgTitle": "New Fast entry",
+                "selectType": "Please select category",
+                "selectApp": "Please select Application",
+                "save": "Save",
+                "cancel": "Cancel",
+                "running": "running",
+                "stop": "disable",
+                "searchPlaceholder": "Search application",
+                "tips": "No data or no addition",
+                "repeat": "You cannot add the same application repeatedly"
             }
         },
         "database": {
@@ -1612,6 +1663,40 @@
             "success": {
                 "update": "Successfully updated global variables!"
             }
+        },
+        "userManager": {
+            "createUser": "create user",
+            "username" : "username",
+            "password": "password",
+            "rootPath": "Root Path",
+            "spacePath": "Space root Path",
+            "hdfsPath": "HDFS root Path",
+            "resultPath": "Result root Path",
+            "schedulerPath": "Scheduler root Path",
+            "usernameNotNull": "username cannot be empty",
+            "usernameFormat": "username begins with a letter, contains only letters, numbers, or underscores",
+            "passwordNotNull": "password cannot be empty",
+            "passwordNotWeak": "password begins with a letter, contains letters, numbers, and special characters, not less than 8 digits",
+            "createSuccess": "create user Success",
+            "createFail": "create user Fail",
+            "dssInstallDir": "dss install directory",
+            "azkabanInstallDir": "Azkaban install directory",
+            "linuxHost" : "linuxHost",
+            "linuxLoginUser" : "linuxLoginUser",
+            "linuxLoginPassword" : "linuxLoginPassword",
+            "linuxHostNotNull" : "linuxHost cannot be empty",
+            "linuxLoginUserNotNull" : "linuxLoginUser cannot be empty",
+            "linuxLoginPasswordNotNull" : "linuxLoginPassword cannot be empty",
+            "serverSettings": "serverSettings",
+            "userSettings": "userSettings",
+            "XYB": "Next step",
+            "SYB": "Previous step",
+            "addServer": "Add server",
+            "deleteTip": "Are you sure you want to delete this server?",
+            "serverSame": " server's host and user is the same, please keep one server with the same configuration",
+            "serverNull": "The server configuration option cannot be empty",
+            "pathNotNull": "Cannot be empty",
+            "createTip": "It will take some time to create, please wait patiently, if successful, return to the home page, fail to stay on this page"
         }
     }
 }

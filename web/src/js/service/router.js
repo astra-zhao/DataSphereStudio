@@ -29,13 +29,22 @@ const router = new VueRouter({
     {
       path: '',
       name: 'layout',
-      redirect: '/project',
+      redirect: '/newhome',
       component: Layout,
       meta: {
         title: 'DataSphere Studio',
         publicPage: true, // 权限公开
       },
       children: [
+        {
+          path: 'newhome',
+          name: 'Newhome',
+          meta: {
+            title: 'DataSphere Studio',
+            publicPage: true,
+          },
+          component: () => import('../view/newhome/index.vue'),
+        },
         {
           path: 'home',
           name: 'Home',
@@ -66,6 +75,24 @@ const router = new VueRouter({
           component: () => import('../view/workflow/index.vue'),
         },
         {
+          path: 'workspace',
+          name: 'workspace',
+          meta: {
+            title: 'Workspace',
+            publicPage: true,
+          },
+          component: () => import('../view/workspace/index.vue'),
+        },
+        {
+          path: 'workspace1',
+          name: 'workspace1',
+          meta: {
+            title: 'Workspace1',
+            publicPage: true,
+          },
+          component: () => import('../view/newhome/module/workspace/index.vue'),
+        },
+        {
           path: 'commonIframe',
           name: 'commonIframe',
           meta: {
@@ -73,6 +100,15 @@ const router = new VueRouter({
             publicPage: true,
           },
           component: () => import('../view/commonIframe/index.vue'),
+        },
+        {
+          name: 'USER MANAGER',
+          path: 'userManager',
+          component: () => import('../view/userManager/index.vue'),
+          meta: {
+            title: 'userManager',
+            publicPage: true,
+          },
         },
         {
           path: 'console',

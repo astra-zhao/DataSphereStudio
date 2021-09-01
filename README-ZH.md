@@ -127,6 +127,17 @@ DSS主要特点：
  
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**根据需要，用户可以简单快速替换DSS已集成的各种功能组件，或新增功能组件。**
 
+## Demo试用环境
+
+&nbsp; &nbsp; &nbsp; &nbsp;由于DataSphereStudio支持执行脚本风险较高，WeDataSphere Demo环境的隔离没有做完，考虑到大家都在咨询Demo环境，决定向社区先定向发放邀请码，接受企业和组织的试用申请。
+
+&nbsp; &nbsp; &nbsp; &nbsp;如果您想试用Demo环境，请加入DataSphere Studio社区用户群（**加群方式请翻到本文档末尾处**），联系团队成员获取邀请码。
+
+&nbsp; &nbsp; &nbsp; &nbsp;WeDataSphere Demo环境用户注册页面：https://sandbox.webank.com/wds/dss/#/register
+
+&nbsp; &nbsp; &nbsp; &nbsp;WeDataSphere Demo环境登录页面：https://sandbox.webank.com/wds/dss/
+
+&nbsp; &nbsp; &nbsp; &nbsp;我们会尽快解决环境隔离问题，争取早日向社区完全开放WeDataSphere Demo环境。
 
 ## 与类似系统对比
 
@@ -146,7 +157,7 @@ DSS主要特点：
 
 ## 快速安装使用
 
-点我进入[快速安装使用](docs/zh_CN/ch2/DSS快速安装使用文档.md)
+点我进入[快速安装使用](docs/zh_CN/ch2/DSS_LINKIS_Quick_Install.md)
 
 ## 架构
 
@@ -156,7 +167,7 @@ DSS主要特点：
 
 #### 1. 安装编译文档
 
-[快速安装使用文档](docs/zh_CN/ch2/DSS快速安装使用文档.md)
+[快速安装使用文档](docs/zh_CN/ch2/DSS_LINKIS_Quick_Install.md)
 
 [**DSS安装常见问题列表**](docs/zh_CN/ch1/DSS安装常见问题列表.md)
 
